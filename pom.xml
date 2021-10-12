@@ -109,7 +109,7 @@
                     <properties>
                         <property>
                             <name>listener</name>
-                            <value>src.main.java.utils.Listener</value>
+                            <value>src.main.java.utils.listener</value>
                         </property>
                     </properties>
                     <systemPropertyVariables>

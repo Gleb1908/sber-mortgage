@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"src.main.java.utils.Listener"},
-        glue = {"src/main/java/steps"},
+        plugin = {"utils.listener"},
+        glue = {"steps"},
         features = {"src/test/resources/"},
         tags = "@firstTest"
 )

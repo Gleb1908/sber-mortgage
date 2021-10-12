@@ -1,19 +1,19 @@
 package tests;
 
-import BaseTestClass.BaseTest;
-import Categories.*;
-import org.junit.jupiter.api.Test;
-
-import static Categories.ToolbarTitle.*;
-import static Categories.SubMenuTitle.*;
-import static Categories.CheckingValueRub.*;
-import static Categories.CheckingValueRub.DISCOUNT_DOM_CLICK;
-import static Categories.InputFields.*;
-import static Categories.CheckBoxes.*;
-import static Categories.CheckingValuePercent.*;
-
-public class MortgageTest extends BaseTest {
-
+//import BaseTestClass.BaseTest;
+//import Categories.*;
+//import org.junit.jupiter.api.Test;
+//
+//import static Categories.ToolbarTitle.*;
+//import static Categories.SubMenuTitle.*;
+//import static Categories.CheckingValueRub.*;
+//import static Categories.CheckingValueRub.DISCOUNT_DOM_CLICK;
+//import static Categories.InputFields.*;
+//import static Categories.CheckBoxes.*;
+//import static Categories.CheckingValuePercent.*;
+//
+//public class MortgageTest extends BaseTest {
+//
 //    @Test
 //    public void mortgageTest () {
 //
@@ -32,4 +32,4 @@ public class MortgageTest extends BaseTest {
 //                .checkingValuePercent(INTEREST_RATE, INTEREST_RATE_VALUE);
 //
 //    }
-}
+//}

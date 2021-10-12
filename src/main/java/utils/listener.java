@@ -9,7 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 import java.io.ByteArrayInputStream;
 
-public class Listener extends AllureCucumber6Jvm {
+public class listener extends AllureCucumber6Jvm {
 
     @Override
     public void setEventPublisher(EventPublisher publisher) {
