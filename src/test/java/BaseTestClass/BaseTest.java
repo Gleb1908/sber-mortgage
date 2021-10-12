@@ -1,5 +1,5 @@
-package BaseTestClass;
-
+//package BaseTestClass;
+//
 //import managers.DriverManager;
 //import managers.InitManager;
 //import managers.PageManager;

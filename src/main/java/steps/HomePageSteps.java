@@ -1,7 +1,5 @@
 package steps;
 
-import Categories.SubMenuTitle;
-import Categories.ToolbarTitle;
 import io.cucumber.java.ru.И;
 import managers.PageManager;
 
@@ -15,7 +13,7 @@ public class HomePageSteps {
     }
 
     @И("^Выбираем \"(.+)\" в главном меню и \"(.+)\" в подменю$")
-    public void selectToolbarTitleAndSubMenu(ToolbarTitle toolbarTitle, SubMenuTitle subMenuTitle) {
+    public void selectToolbarTitleAndSubMenu(String toolbarTitle, String subMenuTitle) {
         pageManager.getHomePage().selectToolbarTitleAndSubMenu(toolbarTitle, subMenuTitle);
     }
 
